@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eyes practice</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">Menu</div>
+        <div class="behindMenu"></div>
+        <div class="logo">Logo</div>
+        <div class="full">
+            <canvas id="exampleCanvas" class="full" width="500" height="400">
+
+                <!-- OPTION 1: leave a message here if browser doesn't support canvas -->
+                <p>Your browser doesn’t currently support HTML5 Canvas. Please check caniuse.com/#feat=canvas for information
+                    on browser support for canvas.</p>
+
+                <!-- OPTION 2: put fallback content (text, image, Flash, etc.) 
+                if the browser doesn't support canvas -->
+
+            </canvas>
+        </div>
+        <script src="js/basic.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            var canvas = document.getElementById('exampleCanvas');
+            main(canvas);
+        </script>
+</body>
+
+</html>
